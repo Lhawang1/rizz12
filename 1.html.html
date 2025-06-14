@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bhutanese Rizz Generator 😏</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #fdf6e3;
+            color: #333;
+            text-align: center;
+            margin-top: 100px;
+        }
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            display: inline-block;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #ffb347;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .rizz {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #d85d17;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🦄cure for your insomnia🦋 </h1>
+        <button onclick="generateRizz()">click here tshoki 😎</button>
+        <div class="rizz" id="rizzLine"></div>
+    </div>
+
+    <script>
+        const rizzLines = [
+            "I'd call you Ema Datshi, 'cause you're spicy and hot 🌶️🔥",
+            "Small steps every day lead to big results 🐾📈",
+            "You must be suja, 'cause you're warming my soul 🧈☕",
+            "If you were a momo, I'd never dip you — you're already perfect 🥟",
+            "You're like Phobjikha Valley... rare, peaceful, and stunning 🏞️💚",
+            "Call me a yak herder, 'cause I’d climb any mountain for you 🏔️😉",
+            "You're sweeter than zaw soaked in honey 🍯",
+            "Your only limit is your mind 🧠🚀",
+            "Are you Open minded?",
+            "You don’t have to be perfect to be amazing 🌈✨",
+            "Success is the sum of small efforts repeated day in and day out 🔁🏆",
+            "sybau",
+            "Even on your worst days, you are still worthy and enough 🌧️🌟",
+            "You are not a problem to be fixed. You are a person to be loved 🌺",
+            "Rise up. Start fresh. See the bright opportunity in each new day ☀️🌱",
+            "Every day is a second chance 🔁🌅",
+            "Breathe. Trust. Let go.🌬️🕊️",
+            "change is constant",
+            "have a greatttttttttttttt fucking day☀️"
+
+
+
+        ];
+
+        function generateRizz() {
+            const randomLine = rizzLines[Math.floor(Math.random() * rizzLines.length)];
+            document.getElementById('rizzLine').innerText = randomLine;
+        }
+    </script>
+</body>
+</html>
